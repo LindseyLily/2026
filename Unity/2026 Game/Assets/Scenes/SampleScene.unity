@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 157993122}
   - component: {fileID: 157993121}
   m_Layer: 0
-  m_Name: Idle (32x32)_0
+  m_Name: LilGuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
