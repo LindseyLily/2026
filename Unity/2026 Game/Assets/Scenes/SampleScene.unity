@@ -478,13 +478,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 0.47
+  m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.67, z: 0}
 --- !u!4 &689017200
 Transform:
   m_ObjectHideFlags: 0
@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 1589588854}
   - component: {fileID: 1589588856}
   - component: {fileID: 1589588855}
+  - component: {fileID: 1589588857}
   m_Layer: 0
   m_Name: LilGuy
   m_TagString: Untagged
@@ -617,6 +618,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1589588857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589588853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77947f1eb634b99409e985c60dee2cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1: 275
+  key2: 276
+  direction1: 0
+  direction2: 180
 --- !u!1 &1794512520
 GameObject:
   m_ObjectHideFlags: 0
