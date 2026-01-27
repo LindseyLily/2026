@@ -471,7 +471,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.02, y: -3.3308, z: -13.152}
+  m_LocalPosition: {x: 0.02, y: -0.14, z: -13.152}
   m_LocalScale: {x: -0.10751839, y: 1.1946621, z: 1.1946621}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -603,7 +603,7 @@ Transform:
   m_GameObject: {fileID: 689017197}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5925582, y: -3.2357244, z: 0.0626514}
+  m_LocalPosition: {x: 0.5925582, y: -6.53, z: 0.0626514}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -657,10 +657,10 @@ CapsuleCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.02, y: -2.32}
+  m_Offset: {x: -0.02, y: -0.23}
   m_Size: {x: 0.98, y: 0.96}
   m_Direction: 0
 --- !u!50 &689017203
@@ -834,7 +834,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1589588854}
   - component: {fileID: 1589588856}
-  - component: {fileID: 1589588855}
   - component: {fileID: 1589588857}
   m_Layer: 0
   m_Name: LilGuy
@@ -852,39 +851,12 @@ Transform:
   m_GameObject: {fileID: 1589588853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.028, y: -3.414, z: 9.8587}
+  m_LocalPosition: {x: -0.028, y: -0.08, z: 9.8587}
   m_LocalScale: {x: 3.8957622, y: 3.8957622, z: 3.8957622}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 689017200}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1589588855
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589588853}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!212 &1589588856
 SpriteRenderer:
   m_ObjectHideFlags: 0
